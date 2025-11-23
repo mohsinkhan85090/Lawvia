@@ -31,7 +31,7 @@ Law Via aims to assist users by providing accurate and concise legal information
 
 ## Architecture
 
-The architecture of LawGPT includes the following components:
+The architecture of Lawvia includes the following components:
 
 1. **Document Loader**: Loads legal documents from a directory of PDF files.
 2. **Text Splitter**: Splits documents into manageable chunks for embedding.
@@ -55,8 +55,8 @@ The architecture of LawGPT includes the following components:
 1. **Clone the Repository**
 
 ```bash
-   git clone https://github.com/yourusername/lawgpt.git
-   cd lawgpt
+   git clone https://github.com/yourusername/lawvia.git
+   cd lawvia
 ```
 
 2.  **Set Up and Activate Virtual Environment**
@@ -95,7 +95,7 @@ streamlit run app.py
 ```
 ## Deployed Website
 
-LawGPT is also deployed on Streamlit Cloud. You can access the chatbot directly via the following link:
+Lawvia is also deployed on Streamlit Cloud. You can access the chatbot directly via the following link:
 
 [https://legal-chatbot-llm.streamlit.app/](https://legal-chatbot-llm.streamlit.app/)
 
