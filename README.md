@@ -4,6 +4,8 @@
 
 Law Via is a Large Language Model (LLM) based chatbot designed to provide legal information. The chatbot utilizes RAG architecture, advanced language models and embeddings to retrieve and generate contextually relevant answers from a provided legal document corpus. This project specifically focuses on the Indian Penal Code and other related legal documents.
 
+---
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -12,7 +14,7 @@ Law Via is a Large Language Model (LLM) based chatbot designed to provide legal 
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Deployed Website](#deployed-website)
-
+----
 ## Demo Video
 
 https://github.com/itsmesneha/Legal-CHATBOT/assets/87040207/83741dc0-1b0f-43b6-a13e-c35046b831e0
@@ -20,7 +22,7 @@ https://github.com/itsmesneha/Legal-CHATBOT/assets/87040207/83741dc0-1b0f-43b6-a
 ## Introduction
 
 Law Via aims to assist users by providing accurate and concise legal information based on the Indian Penal Code and related legal documents. The chatbot retrieves relevant context from the knowledge base to answer user queries efficiently.
-
+---
 ## Features
 
 - Conversational interface for querying legal information
@@ -28,6 +30,8 @@ Law Via aims to assist users by providing accurate and concise legal information
 - Embeds documents using Google Generative AI Embeddings
 - Handles large document sets by splitting and batching
 - Provides sources for retrieved information
+
+---
 
 ## Architecture
 
@@ -40,16 +44,17 @@ The architecture of Lawvia includes the following components:
 5. **LLM**: Uses the ChatGroq API to generate responses based on retrieved documents and user queries.
 6. **Memory**: Maintains a conversation buffer to provide context in conversations.
 
+---
 ## Setup and Installation
 
-### Prerequisites
-
+Prerequisites:- 
 - Python 3.12
 - [Streamlit](https://streamlit.io/)
 - [LangChain Community](https://github.com/langchain-ai/langchain-community)
 - [Google Generative AI](https://github.com/google-research/google-research/tree/master/large-scale-causal-ml)
 - [FAISS](https://github.com/facebookresearch/faiss)
 
+---
 ### Installation Steps
 
 1. **Clone the Repository**
@@ -93,11 +98,17 @@ Run the Streamlit Application
 ```bash
 streamlit run app.py
 ```
+---
 ## Deployed Website
 
 Lawvia is also deployed on Streamlit Cloud. You can access the chatbot directly via the following link:
 
 [https://legal-chatbot-llm.streamlit.app/](https://legal-chatbot-llm.streamlit.app/)
 
+---
 
+## 👨‍💻 Author
 
+**Mohsin Khan**  
+📍 AI & ML Student | Aspiring SDE/ML Engineer  
+🔗 [GitHub](https://github.com/mohsinkhan85090)
