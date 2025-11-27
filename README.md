@@ -20,8 +20,9 @@ Law Via is a Large Language Model (LLM) based chatbot designed to provide legal 
 https://github.com/itsmesneha/Legal-CHATBOT/assets/87040207/83741dc0-1b0f-43b6-a13e-c35046b831e0
 
 ## Introduction
-
 Law Via aims to assist users by providing accurate and concise legal information based on the Indian Penal Code and related legal documents. The chatbot retrieves relevant context from the knowledge base to answer user queries efficiently.
+
+ 
 ---
 ## Features
 
